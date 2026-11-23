@@ -1,6 +1,13 @@
-# Yantrasutra (`yantrasutra.github.io`)
+# yantrasutra.github.io
 
-Official GitHub Pages landing website for [Yantrasutra](https://github.com/yantrasutra).
+Official organization website for [Yantrasutra](https://github.com/yantrasutra).
 
-## Local Development
-Open `index.html` in your browser.
+## Structure
+The site uses vanilla HTML and CSS without external runtime dependencies or build steps.
+- `index.html`: Site layout, design tokens, engineering principles, and workflow documentation.
+
+## Local preview
+Open `index.html` directly in any modern browser, or run a local server:
+```bash
+python -m http.server 8000
+```
